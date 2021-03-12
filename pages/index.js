@@ -8,10 +8,6 @@ export default function Home({ data: { Data } }) {
 
   return (
     <div className="text-gray-900">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <header className="relative bg-blue-200 p-8 flex justify-between items-center">
         <h1 className="text-xl font-bold">{Data.OfficialCaseName}</h1>
