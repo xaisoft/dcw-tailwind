@@ -13,14 +13,14 @@ export default function Home({ data: { Data } }) {
         <h1 className="text-xl font-bold">{Data.OfficialCaseName}</h1>
         <nav>
           <ul className="hidden lg:flex space-x-2">
-            <li className="bg-blue-400 text-white font-bold p-2 hover:bg-blue-600 ">
+            <li className="bg-blue-400 font-bold p-2 hover:bg-blue-600 ">
               <a href="#">Home</a>
             </li>
-            <li className="bg-blue-400 text-white font-bold p-2 hover:bg-blue-600">
+            <li className="bg-blue-400 font-bold p-2 hover:bg-blue-600">
               <a href="#">Contact</a>
             </li>
             {Data.CaseForms.map((form) => (
-              <li key={form.WebFormId} className="bg-blue-400 text-white font-bold  p-2 hover:bg-blue-600">{form.WebsiteLinkTitle}</li>
+              <li key={form.WebFormId} className="bg-blue-400 font-bold  p-2 hover:bg-blue-600">{form.WebsiteLinkTitle}</li>
             ))}
           </ul>
           <button aria-label="Open Menu" className="lg:hidden" onClick={()=>setIsOpen(!isOpen)}>
