@@ -27,7 +27,7 @@ export default function Home({ data: { Data } }) {
               <li key={form.WebFormId} className="bg-blue-400 text-white font-bold  p-2 hover:bg-blue-600">{form.WebsiteLinkTitle}</li>
             ))}
           </ul>
-          <button className="lg:hidden" onClick={()=>setIsOpen(!isOpen)}>
+          <button aria-label="Open Menu" className="lg:hidden" onClick={()=>setIsOpen(!isOpen)}>
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Home({ data: { Data } }) {
               <li key={form.WebFormId}>{form.WebsiteLinkTitle}</li>
             ))}
           </ul>
-          <button onClick={()=> {setIsOpen(false)}}>
+          <button aria-label="Close Menu" onClick={()=> {setIsOpen(false)}}>
         <svg className="w-4 x-4 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
 </svg>
