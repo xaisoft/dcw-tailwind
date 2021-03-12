@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head>
             <title>Acme Settlement</title>
             <meta name="description" content="Acme Settlement Class Action Lawsuite"/>
+            <meta name="robots" content="noindex"/>
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
