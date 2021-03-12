@@ -68,11 +68,7 @@ export default function Home({ data: { Data } }) {
 
         <section id="about" className=" bg-red-200 p-4">
           <h2 className="uppercase text-2xl font-bold mb-2">About This Case</h2>
-          <p
-            className="space-y-4 tracking-wide leading-relaxed"
-            dangerouslySetInnerHTML={{__html: Data.CaseWebsiteContent[1].Content
-            }}
-          ></p>
+          <p>Your Legal Options</p>
         </section>
 
         <section id="milestones" className=" bg-green-400 p-4">
