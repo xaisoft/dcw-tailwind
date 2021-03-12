@@ -126,7 +126,7 @@ export default function Home({ data: { Data } }) {
                     d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
                   />
                 </svg>
-                <a className="text-blue-500" href={x.Path}>
+                <a className="text-blue-600" href={x.Path}>
                   {x.Name}
                 </a>
               </li>
@@ -140,7 +140,7 @@ export default function Home({ data: { Data } }) {
             {Data.CaseForms.map((x) => (
               <li key={x.WebFormId} className="flex items-center hover:bg-gray-300 py-4  px-1">
                 
-                <a className="text-blue-500" href={`/forms/${x.WebFormid}`}>
+                <a className="text-blue-600" href={`/forms/${x.WebFormid}`}>
                   {x.WebsiteLinkTitle}
                 </a>
               </li>
