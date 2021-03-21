@@ -1,6 +1,7 @@
 import React from 'react'
+import { IDocument } from '../types'
 
-function DocumentItem({document}) {
+function DocumentItem({document}:{document:IDocument}) {
     return (
         <li  className="flex items-center space-x-2">
               <svg

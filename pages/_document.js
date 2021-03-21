@@ -10,10 +10,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-            <title>Acme Settlement</title>
-            <meta name="description" content="Acme Settlement Class Action Lawsuite"/>
-
-            <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Acme Settlement Class Action Lawsuite"/>
+        <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

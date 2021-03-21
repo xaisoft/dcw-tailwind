@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
+import { IForm } from '../types';
 
-function Header({officialCaseName,forms}) {
+function Header({officialCaseName,forms}:{officialCaseName:string,forms:IForm[]}) {
     const [isOpen,setIsOpen] = useState(false);
     return (
         <header className="relative bg-blue-200 p-8 flex justify-between items-center">

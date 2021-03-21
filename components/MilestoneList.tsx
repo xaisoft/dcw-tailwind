@@ -1,7 +1,8 @@
 import React from 'react'
+import { IMilestone } from '../types'
 import MilestoneItem from './MilestoneItem'
 
-function MilestoneList({milestones}) {
+function MilestoneList({milestones}:{milestones:IMilestone[]}) {
     return (
         <section id="milestones" className=" bg-green-400 p-4">
         <h2 className="uppercase text-2xl font-bold mb-2">Milestones</h2>

@@ -1,7 +1,8 @@
 import React from 'react'
+import { IForm } from '../types'
 import FormItem from './FormItem'
 
-function FormList({forms}) {
+function FormList({forms}:{forms:IForm[]}) {
     return (
         <section id="forms" className="p-4">
         <h2 className="uppercase text-2xl font-bold mb-2">Forms</h2>

@@ -1,6 +1,7 @@
 import React from 'react'
+import { IMilestone } from '../types'
 
-function MilestoneItem({milestone}) {
+function MilestoneItem({milestone}:{milestone:IMilestone}) {
     return (
         <li>
               <div className="flex items-center space-x-2">
