@@ -20,12 +20,12 @@ function Index({ data }: { data: ILoginForm }): ReactElement {
 
         <div className="flex items-center">
           <label htmlFor="simid" className="font-bold mr-2 w-20 text-right inline-block">{data?.AuthColumn1Title}</label>
-          <input name="simid" type="text" className="p-2 rounded outline-none focus:ring-1" />
+          <input id="simid" type="text" className="p-2 rounded outline-none focus:ring-1" />
 
         </div>
         <div  className="flex items-center">
           <label htmlFor="lastName" className="font-bold mr-2 w-20  inline-block">{data?.AuthColumn2Title}</label>
-          <input name="lastName" type="text" className="p-2 rounded outline-none focus:ring-1" />
+          <input id="lastName" type="text" className="p-2 rounded outline-none focus:ring-1" />
         </div>
 
         <button className="rounded hover:bg-blue-900 bg-blue-600 text-white px-8 py-2" onClick={() => alert("l")}>Login</button>
