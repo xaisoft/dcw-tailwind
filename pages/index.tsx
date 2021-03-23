@@ -32,17 +32,15 @@ export default function Home({ data }:{data:IData}) {
 
 export const getStaticProps: GetStaticProps = async (context) => {
 
-  //   "https://apiwww.simpluris.com/api/case?caseUrl=acmesettlement.com&lang=us"
- 
   const response = await fetch(
-    "https://docs.simpluris.com/websites/acmesettlement.com/us"
+    "https://apiwww.simpluris.com/api/case?caseUrl=acmesettlement.com&lang=us"
     );
 
   const data = await response.json();
 
   return {
     props: {
-      data,
+      data : data.Data,
     },
   };
 }

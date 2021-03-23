@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+1. NEXTJS is a framework built on top of react
+2. Traditional REACT applications only run client side
+3. NEXTJS gives you a hybrid approach (SSG and/or SSR)
+4. You can generate static sites with dynamic data
+5. Performance
+6. Developer Experience (Fast Refresh, etc)
+7. Community
+8. Used at many top companies
