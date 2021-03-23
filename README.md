@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 6. Developer Experience (Fast Refresh, etc)
 7. Community
 8. Used at many top companies
+9. SSR - SEO
