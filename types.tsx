@@ -1,33 +1,33 @@
 export interface IDocument {
-    DocumentWebId:string
-    Name:string
-    Path:string
+    DocumentWebId: string
+    Name: string
+    Path: string
 }
 
 export interface IForm {
-    WebFormId:string
+    WebFormId: string
 
-    WebsiteLinkTitle:string
-    WebsiteFormTitle:string
+    WebsiteLinkTitle: string
+    WebsiteFormTitle: string
 }
 
 export interface ILoginForm {
-    WebFormId:string
-    Title:string;
-    AuthColumn1Title:string;
-    AuthColumn2Title:string;
-    WebsiteLinkTitle:string
-    WebsiteFormTitle:string
+    WebFormId: string;
+    Title: string;
+    AuthColumn1Title: string;
+    AuthColumn2Title: string;
+    WebsiteLinkTitle: string
+    WebsiteFormTitle: string
 }
 export interface IMilestone {
-    MilestoneWebId:string
-    WebName:string
+    MilestoneWebId: string
+    WebName: string
 
 }
 
 export interface IData {
-    OfficialCaseName:string;
+    OfficialCaseName: string;
     CaseForms: IForm[];
-    CaseWebsiteMilestones:IMilestone[];
+    CaseWebsiteMilestones: IMilestone[];
     CaseWebsiteDocuments: IDocument[];
 }
